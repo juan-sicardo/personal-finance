@@ -1,2 +1,7 @@
+import sys
+
+from cli import clidriver
+
+
 def main():
-    pass
+    sys.exit(clidriver.main())
