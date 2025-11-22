@@ -21,6 +21,16 @@ extras_require = {
 }
 
 
+console_scripts = [
+    "pf=cli:main",
+]
+
+
+entry_points={
+    "console_scripts": console_scripts,
+}
+
+
 setup_options = dict(
     name="personalfinance",
     version="0.1.0",
@@ -35,6 +45,7 @@ setup_options = dict(
     python_requires=">=3.12",
     install_requires=install_requires,
     extras_require=extras_require,
+    entry_points=entry_points,
 )
 
 
