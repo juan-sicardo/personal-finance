@@ -29,11 +29,6 @@ class ArgumentParserManager:
             type=str,
             help="Path to config file",
         )
-        argument_parser.add_argument(
-            "-d", "--debug",
-            action="store_true",
-            help="Enable debug mode",
-        )
         return argument_parser
 
     def _validate_namespace(self, namespace: Namespace):
