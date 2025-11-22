@@ -1,5 +1,45 @@
-# Python
-.venv
+*.py[co]
+*.DS_Store
 
-# JetBrains
-.idea
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+var
+sdist
+develop-eggs
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+coverage.xml
+nosetests.xml
+
+#Translations
+*.mo
+
+# Emacs backup files
+*~
+
+# Eclipse IDE
+/.project
+/.pydevproject
+
+# IDEA IDE
+.idea*
+
+# Virtualenvs
+.venv
+venv
+.env
+env
+
+# Pyenv
+.python-version
