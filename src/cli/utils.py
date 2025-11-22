@@ -1,7 +1,7 @@
 import re
 
 
-def is_valid_windows_path(path_string):
+def is_valid_windows_path(path_string) -> bool:
     """
     Checks if a string is a syntactically valid Windows path.
     This does not check if the path actually exists on the filesystem.
